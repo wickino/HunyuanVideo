@@ -752,9 +752,9 @@ HUNYUAN_VIDEO_CONFIG = {
         "mm_double_blocks_depth": 20,
         "mm_single_blocks_depth": 40,
         "rope_dim_list": [16, 56, 56],
-        "hidden_size": 3072,
-        "heads_num": 24,
-        "mlp_width_ratio": 4,
+        "hidden_size": 2048, # Reduced from 3072
+        "heads_num": 16, # Reduced from 24
+        "mlp_width_ratio": 3, # Reduced from 4.0
         "guidance_embed": True,
     },
 }
